@@ -1,0 +1,43 @@
+.App {
+  color:black;
+  font-family: 'Dancing Script', cursive;
+  min-height:100vh;
+  max-height: auto;
+  text-align: center;
+  background-image:url('./assets/background-3.jpg') ;
+  background-attachment: fixed;
+  background-repeat:  no-repeat;
+  padding:4%;
+}
+@keyframes spinner {
+  0% {
+    transform: translate3d(-50%, -50%, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate3d(-50%, -50%, 0) rotate(360deg);
+  }
+}
+.spin::before {
+  animation: 1.5s linear infinite spinner;
+  animation-play-state: inherit;
+  border: solid 5px #cfd0d1;
+  border-bottom-color: #1c87c9;
+  border-radius: 50%;
+  content: "";
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  will-change: transform;
+}
+.spinHolder{
+    height:600px;
+  width:70%;
+  margin:auto;
+  padding:1.5%;
+  background: linear-gradient(to right, #00c9ff, #92fe9d);
+  border: 2px solid white;
+  border-radius: 20px;
+}

@@ -1,0 +1,78 @@
+.Recipe{
+    display:inline-block;
+    padding:22px;
+    margin:20px;
+    width:65%;
+    border:2px solid white;
+    border-radius:5%;
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    
+    transition: all .3s ease-in-out;
+}
+.Recipe:hover{
+   
+    transform: scale(1.1);
+}
+.image{
+    height:80%;
+    width:80%;
+    border-radius:20px;
+}
+.link{
+    display:block;
+    padding:1.5%;
+    font-size:1.7em;
+    text-decoration: none;
+    
+}
+@media (min-width:550px )
+{
+    .Recipe{
+        display:inline-block;
+        padding:0;
+        margin:20px;
+        width:44%;
+        border:2px solid white;
+        border-radius:5%;
+    }
+    
+    .image{
+        height:45%;
+        width:45%;
+        border-radius:20px;
+    }
+    .button{
+        display:block;
+        padding:3%;
+        font-size:1.5em;
+        text-decoration: none;
+    }
+    
+}
+
+
+@media (min-width:550px) and (max-width:1220px){
+    .Recipe{
+        display:inline-block;
+        padding:25px;
+        margin:20px;
+        width:65%;
+        border:2px solid white;
+        border-radius:5%;
+       
+    }
+    
+    .image{
+        height:45%;
+        width:45%;
+        border-radius:20px;
+    }
+    .link{
+        display:block;
+        padding:3%;
+        font-size:1.7em;
+        text-decoration: none;
+        
+    }
+    
+}

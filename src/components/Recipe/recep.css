@@ -1,0 +1,80 @@
+.recep{
+    font-size:140%;
+    width:90%;
+    margin:auto;
+    padding:1.5%;
+     background: linear-gradient(to right, #00c9ff, #92fe9d);
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.Image{
+    margin:35px auto 35px auto;
+    display:block;
+    height:25%;
+    width:25%;
+    border-radius:20px;
+}
+.ingredients{
+    margin:20px ;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding:5%;
+    width:25%;
+    display:inline-block;
+    transition: all .3s ease-in-out;
+    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+}
+.ingredients:hover{
+    transform: scale(1.1);
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.healthBenefits{
+    margin:20px ;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding:5%;
+    width:25%;
+    display:inline-block;
+    transition: all .3s ease-in-out;
+    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+}
+.healthBenefits:hover{
+    transform: scale(1.1);
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.showingArea{
+    margin:auto ;
+    border-radius: 20px;
+    border: 2px solid white;
+    padding:5%;
+    width:62%;
+    display:block;
+    transition: all .3s ease-in-out;
+    background: linear-gradient(to right, #1fa2ff, #12d8fa, #a6ffcb);
+}
+.showingArea:hover{
+    transform: scale(1.03);
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+ol{
+    list-style-type: none;
+}
+.para{
+    text-decoration:none;
+    font-size:1.5em;
+}
+@media (max-width:600px){
+    .Image{
+        margin:35px auto 35px auto;
+        display:block;
+        height:55%;
+        width:55%;
+        border-radius:20px;
+    }
+    .ingredients{
+        width:60%;
+    }
+    .healthBenefits{
+        width:60%;
+    }
+}
